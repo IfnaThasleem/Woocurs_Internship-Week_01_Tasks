@@ -46,32 +46,31 @@ This repository documents my daily progress during the first week (Day 1 to Day 
 
 ## 📂 Project Structure
 /library-system
-│── index.html
-│── index.php
-│── book_form.html
-│── book_form.php
-│── view_books.php
-│── member_form.html
-│── member_form.php
-│── view_members.php
-│── about.html
-│── contact.html
-│── assets/ (images, css, js)
-│── database/ (library.sql)
+├── index.html
+├── index.php
+├── book_form.html
+├── book_form.php
+├── view_books.php
+├── member_form.html
+├── member_form.php
+├── view_members.php
+├── about.html
+├── contact.html
+├── assets/ # images, css, js
+└── database/ # library.sql
 
 ## 🚀 How to Run
 - Clone this repo:
-``bash
-git clone https://github.com/ifnathasleem/woocurs-internship-week1.git
-``
+  ```bash
+  git clone https://github.com/ifnathasleem/woocurs-internship-week1.git
 - Place files inside htdocs (if using XAMPP)
 - Import library.sql into phpMyAdmin
 - Run server and open in browser:
-``bash
-http://localhost/library-system/
-``
+  ```bash
+  http://localhost/library-system/index.html
+
 
 ## 👩‍💻 Author
-Ifna Thasleem
+***Ifna Thasleem***
 
 ✨ This README represents my Week 01 (Day 1 – Day 5) tasks during the Woocurs Internship.
