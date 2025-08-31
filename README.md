@@ -59,6 +59,7 @@ This repository documents my daily progress during the first week (Day 1 to Day 
 ├── contact.html
 ├── assets/        # images, css, js
 └── database/      # library.sql
+```
 
 ## 🚀 How to Run
 - Clone this repo:
