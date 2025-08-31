@@ -1,4 +1,6 @@
-# 📚 Woocurs Internship – Week 01 Tasks
+# 📚Library Management System
+
+## 📚 Woocurs Internship – Week 01 Tasks
 This repository documents my daily progress during the first week (Day 1 to Day 5) of my Woocurs Internship. The project I worked on is a Library Management System using PHP, MySQL, HTML, CSS, and Bootstrap.
 
 ## 📅 Week 01 – Task Log
