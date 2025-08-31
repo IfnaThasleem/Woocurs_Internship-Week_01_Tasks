@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>About Us - Library Management System</title>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
+<style>
+body { background: #f8f9fa; }
+
+/* Hero Section */
+.hero {
+  background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)),
+              url('https://images.unsplash.com/photo-1524995997946-a1c2e315a42f') no-repeat center center/cover;
+  color: white; padding:120px 20px; border-radius:12px; text-align:center;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+  transition: transform 0.3s;
+}
+.hero:hover { transform: scale(1.02); }
+
+/* Cards */
+.card { border-radius:12px; box-shadow:0 4px 12px rgba(0,0,0,0.1); transition: transform 0.3s, box-shadow 0.3s; }
+.card:hover { transform: translateY(-5px); box-shadow:0 8px 20px rgba(0,0,0,0.15); }
+
+/* Section titles */
+.section-title { font-weight: bold; margin-bottom: 30px; }
+
+/* Team Cards */
+.team-card { text-align: center; padding: 20px; transition: transform 0.3s, box-shadow 0.3s; border-radius: 12px; }
+.team-card img { width: 150px; height: 150px; object-fit: cover; border-radius: 50%; margin-bottom: 15px; }
+.team-card:hover { transform: translateY(-5px); box-shadow: 0 8px 20px rgba(0,0,0,0.15); }
+
+/* Footer */
+.footer {
+    background: #343a40; color: #fff; padding: 30px 20px; margin-top: 50px;
+    text-align: center; border-radius: 12px 12px 0 0;
+}
+.footer .social-icons a { color: #fff; margin: 0 8px; font-size: 18px; transition: color 0.3s; }
+.footer .social-icons a:hover { color: #0d6efd; }
+
+/* Navbar Shadow */
+.navbar { box-shadow: 0 2px 6px rgba(0,0,0,0.3); }
+</style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand fw-bold" href="index.html">📖 Library System</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto" style="gap: 15px;">
+        <li class="nav-item">
+          <a class="nav-link active" href="index.html">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="book_form.html">Add Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="view_books.php">Manage Books</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="member_form.html">Add Members</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="view_members.php">Manage Members</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="about.html">About Us</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="contact.html">Contact Us</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<style>
+/* Add vertical lines between nav items */
+.navbar-nav .nav-item + .nav-item {
+  border-left: 1px solid rgba(255, 255, 255, 0.3);
+  padding-left: 15px;
+  margin-left: 15px;
+}
+</style>
+
+<!-- Hero Section -->
+<div class="container mt-4">
+  <div class="hero">
+    <h1 class="display-4 fw-bold">About Our Library</h1>
+    <p class="lead">Learn more about our mission, vision, and how we help students and readers.</p>
+  </div>
+</div>
+
+<!-- About Section -->
+<div class="container mt-5">
+  <h2 class="text-center section-title">Our Mission</h2>
+  <p class="text-center mb-5">Our mission is to provide an organized and easy-to-use library system that allows students, faculty, and members to efficiently manage books, track borrowings, and maintain accurate records.</p>
+
+  <h2 class="text-center section-title">Our Vision</h2>
+  <p class="text-center mb-5">To create a modern, technology-driven library environment that promotes knowledge sharing and accessibility for all members of the community.</p>
+
+  <h2 class="text-center section-title">Why Choose Our System?</h2>
+  <div class="row g-4 mt-3">
+    <div class="col-md-4">
+      <div class="card p-4 text-center">
+        <h4>📚 Easy Book Management</h4>
+        <p>Add, update, delete, and search books quickly and efficiently.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4 text-center">
+        <h4>👥 Member Tracking</h4>
+        <p>Register members, track borrowings, and maintain a well-organized library database.</p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="card p-4 text-center">
+        <h4>📊 Insights & Reports</h4>
+        <p>Get clear insights into library usage, popular books, and member activity.</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- Meet the Team Section -->
+  <h2 class="text-center section-title mt-5">Meet Our Team</h2>
+  <div class="row g-4 mt-3">
+    <div class="col-md-3">
+      <div class="team-card bg-white">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Member 1">
+        <h5>Jane Doe</h5>
+        <p>Librarian</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="team-card bg-white">
+        <img src="https://randomuser.me/api/portraits/men/34.jpg" alt="Member 2">
+        <h5>John Smith</h5>
+        <p>Assistant Librarian</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="team-card bg-white">
+        <img src="https://randomuser.me/api/portraits/women/65.jpg" alt="Member 3">
+        <h5>Emily Clark</h5>
+        <p>System Admin</p>
+      </div>
+    </div>
+    <div class="col-md-3">
+      <div class="team-card bg-white">
+        <img src="https://randomuser.me/api/portraits/men/22.jpg" alt="Member 4">
+        <h5>Michael Lee</h5>
+        <p>Developer</p>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Footer -->
+<footer class="footer mt-5">
+  <p>Library Management System © 2025 | Developed by Ifna Thasleem</p>
+  <div class="social-icons mt-2">
+    <a href="#" class="text-white"><i class="fab fa-facebook-f"></i></a>
+    <a href="#" class="text-white"><i class="fab fa-twitter"></i></a>
+    <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+    <a href="#" class="text-white"><i class="fab fa-instagram"></i></a>
+  </div>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
