@@ -1,7 +1,11 @@
 # 📚Library Management System
 
-## 📚 Woocurs Internship – Week 01 Tasks
+---
+
+## 💻 Woocurs Internship – Week 02 Tasks
 This repository documents my daily progress during the first week (Day 1 to Day 5) of my Woocurs Internship. The project I worked on is a Library Management System using PHP, MySQL, HTML, CSS, and Bootstrap.
+
+---
 
 ## 📅 Week 01 – Task Log
 
@@ -40,11 +44,15 @@ This repository documents my daily progress during the first week (Day 1 to Day 
 - Applied interactive hover effects for cards and social icons
 - Completed testing of all pages for responsiveness
 
+---
+
 ## 🛠️ Tech Stack
 - **Frontend:** HTML5, CSS3, Bootstrap 5, FontAwesome
 - **Backend:** PHP 8
 - **Database:** MySQL
 - **Tools:** VSCode, XAMPP
+
+---
 
 ## 📂 Project Structure
 ```plaintext
@@ -62,6 +70,8 @@ This repository documents my daily progress during the first week (Day 1 to Day 
 └── database/ # library.sql
 ```
 
+---
+
 ## 🚀 How to Run
 - Clone this repo:
   ```bash
@@ -72,8 +82,11 @@ This repository documents my daily progress during the first week (Day 1 to Day 
   ```bash
   http://localhost/library-system/index.html
 
+---
 
 ## 👩‍💻 Author
 ***Ifna Thasleem***
+
+---
 
 ✨ This README represents my Week 01 (Day 1 – Day 5) tasks during the Woocurs Internship.
