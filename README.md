@@ -57,8 +57,7 @@ This repository documents my daily progress during the first week (Day 1 to Day 
 ├── view_members.php
 ├── about.html
 ├── contact.html
-├── assets/        # images, css, js
-└── database/      # library.sql
+└── database/ # library.sql
 ```
 
 ## 🚀 How to Run
